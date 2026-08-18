@@ -1,0 +1,16 @@
+Adjacency Matrix:
+
+Given two nodes, check whether there is a connection between them.
+Time Complexity: O(1)
+
+
+Adjacency List:
+
+Given one node, find which nodes are connected to it.
+Time Complexity: O(N) in the worst case,
+but usually much smaller because we only store its connected neighbors.
+
+
+Edge List:
+
+Stores only the edges of the graph.

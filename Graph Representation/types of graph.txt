@@ -1,0 +1,101 @@
+GRAPH TYPES
+=============
+
+The three main ways to classify graphs are:
+
+1. DIRECTION
+2. WEIGHT
+3. CYCLE
+
+
+1. DIRECTION
+------------
+
+Direction describes whether an edge has a direction.
+
+1.1 Directed Graph
+An edge has a direction.
+
+Example:
+A ----> B
+
+We can move from A to B, but not necessarily from B to A.
+
+
+1.2 Undirected Graph
+An edge has no direction.
+
+Example:
+A ----- B
+
+We can move from A to B and B to A.
+
+
+
+2. WEIGHT
+---------
+
+Weight describes whether edges have a cost/value.
+
+2.1 Weighted Graph
+Every edge can have a weight, cost, distance, or value.
+
+Example:
+A --5-- B
+
+Here, the edge weight is 5.
+
+
+2.2 Unweighted Graph
+Edges do not have a weight.
+
+Example:
+A ----- B
+
+
+
+3. CYCLE
+--------
+
+A cycle exists when we can start from a vertex and return to
+the same vertex by following edges.
+
+Example:
+A ----> B
+^       |
+|       v
++-------C
+
+A -> B -> C -> A is a cycle.
+
+
+3.1 Cyclic Graph
+A graph that contains at least one cycle.
+
+Example:
+A ----- B
+|       |
+|       |
+C ----- D
+
+
+3.2 Acyclic Graph
+A graph that contains no cycle.
+
+Example:
+A ----- B ----- C
+
+There is no way to start from a vertex and return to it
+without repeating an edge/vertex.
+
+
+
+
+IMPORTANT NOTE
+==============
+
+Directed/Undirected tells us about DIRECTION.
+
+Weighted/Unweighted tells us about WEIGHT.
+
+Cyclic/Acyclic tells us about CYCLE.
